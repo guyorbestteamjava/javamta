@@ -5,12 +5,12 @@ xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	<servlet>
-		<servlet-name>MtaProj01</servlet-name>
-		<servlet-class>com.myorg.javacourse.MtaProj01Servlet</servlet-class>
+		<servlet-name>Test</servlet-name>
+		<servlet-class>com.guy.java.TestServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>MtaProj01</servlet-name>
-		<url-pattern>/mtaproj01</url-pattern>
+		<servlet-name>Test</servlet-name>
+		<url-pattern>/test</url-pattern>
 	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
