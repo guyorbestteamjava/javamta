@@ -16,12 +16,12 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 
 
 	<servlet>
-		<servlet-name>Exercise 3</servlet-name>
+		<servlet-name>Exercise3</servlet-name>
 		<servlet-class>com.guy.java.MathExercise</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>Exercise 3</servlet-name>
-		<url-pattern>/exercise 3</url-pattern>
+		<servlet-name>Exercise3</servlet-name>
+		<url-pattern>/exercise3</url-pattern>
 	</servlet-mapping>
 
 

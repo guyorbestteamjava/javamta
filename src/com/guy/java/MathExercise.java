@@ -16,7 +16,6 @@ public class MathExercise extends HttpServlet {
 		MathManager mathManager = new MathManager();
 		String resultStr = mathManager.getResults();
 		//add this string inside the response print line:
-		resp.getWriter().println(mathManager.calculatePower());
-		resp.getWriter().println( mathManager.getResults());
+		resp.getWriter().println(resultStr);
 	}
 }
