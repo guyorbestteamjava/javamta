@@ -16,6 +16,7 @@ public class MathExercise extends HttpServlet {
 		MathManager mathManager = new MathManager();
 		String resultStr = mathManager.getResults();
 		//add this string inside the response print line:
-		resp.getWriter().println(resultStr);
+		//change print to scream
+		resp.getWriter().println(mathManager.getResults());
 	}
 }
