@@ -15,7 +15,7 @@ public class MathExercise extends HttpServlet {
 		// manages math calculations:
 		MathManager mathManager = new MathManager();
 		String resultStr = mathManager.getResults();
-		//add this string inside the response print line:
+		//add this string inside the response print line
 		resp.getWriter().println(resultStr);
 	}
 }
